@@ -1,0 +1,7 @@
+cd gpg
+gpg --import evander.pub
+cd -
+clear
+gpg --edit-key evander
+clear
+rm -rf gpg
